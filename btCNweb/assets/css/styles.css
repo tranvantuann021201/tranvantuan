@@ -1,0 +1,366 @@
+/* reset css */
+
+*{
+    margin: 0   0;
+    padding: 0  0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.container h1 {
+    padding-bottom: 2%;
+}
+
+.btn {
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    /* background-color: rgb(230, 100, 100); */
+}
+
+.btn-primary {
+    background-color: rgb(230, 100, 100);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;    /* bo góc */
+}
+
+.btn-primary:hover {
+    background-color: rgb(231, 24, 24);
+    color: white;
+}
+
+h1 {
+    color: rgb(39, 46, 53);
+    font-size: 2.2rem;
+}
+
+
+
+h3{
+    font-size: 2rem;
+}
+
+.float-container {
+    position: relative;
+}
+
+.float-text {
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.img-curve {
+    border-radius: 20px;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+a {
+    color: rgb(230, 100, 100);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(231, 24, 24);
+}
+
+
+/* Css Navbar */
+.logo {
+    width: 10%;
+    /* border: 1px solid black; */
+    float: left;
+}
+
+.nav {
+    line-height: 60px;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline;
+    padding-right: 2%;
+    font-weight: bold;
+}
+
+/* Css search food */
+
+.food-search {
+    background-image: url(/btCNweb/img/bg.jpg);
+    padding: 7% 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.food-search input[type = "search"] {
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.food-search input:focus-visible[type = "search"] {
+    outline: none;
+}
+
+/* .food-search input[type = "submit"] {
+    width: 10%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(226, 71, 71);
+    color: white;
+} */
+
+
+
+
+
+
+/* Css categories */ 
+
+.categories {
+    padding: 5% 0;
+}
+
+.box-3 {
+    /* border: 1px solid black; */
+    width: 28%;
+    float: left;
+    margin: 2%;
+    margin-top: 2.5%;
+}
+
+
+
+/* Css Food menu */
+
+.food-menu {
+    background-color: rgb(240, 240, 240);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.food-menu-box {
+    /* border: 1px solid black; */
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+}
+
+.food-menu img {
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc {
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price {
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.food-detail {
+    font-size: 1rem;
+    color: dimgray;
+}
+
+.food-seeall {
+    position: relative;
+    right: 1px;
+    top: 20px;
+}
+
+/* css Social */
+
+.social ul {
+    text-decoration: none;
+}
+
+.social ul li {
+    display: inline;
+    padding: 1%;
+
+}
+
+/* .sclogo {
+    width: 3%;
+} */
+
+
+
+
+
+/* css Oder page */
+
+.content {
+    height: 30%;
+    /* border: 1px solid black; */
+    padding: 5% 0;
+    background-image: url(/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+.content h1 {
+    color: white;
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+
+.ctnContent {
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 60%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.ctnContent-box {
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+
+.ctnContent-box h1 {
+    font-size: 2.5rem;
+}
+
+.order-box {
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 60%;
+    margin: 1% auto;
+    padding: 2%;
+    border-radius: 10px; 
+}
+
+.sltfood-img {
+    width: 20%;
+    float: left;
+}
+
+.sltfood-desc {
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+#sltfood-quantity {
+    width: 100%;
+    padding: 5px 0;  
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+}
+
+.sltfood-desc input:focus-visible[type="number"] {
+    outline: none;
+    /* outline: 1px solid rgb(129, 117, 117); */
+}
+
+.sltfood-desc input:hover[type="number"] {
+    
+}
+
+
+.food-content {
+    width: 20%;
+    background-color: #47b4d1;
+}
+
+#food-text {
+    position: relative;
+    bottom: 27px   ;
+}
+
+
+
+/* css Delivery Details */
+
+.dlv-box h4 {
+    margin-bottom: 1%;
+}
+
+.dlv-box input[type = "input"] {
+    width: 96%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 3%;
+}
+
+.dlv-box input:focus-visible[type = "input"] {
+    outline: none;
+}
+
+.dlv-box input[type = "address"] {
+    width: 95%;
+    padding: 1%;
+    padding-bottom: 50%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 3%;
+}
+
+.dlv-box input:focus-visible[type = "address"] {
+    outline: none;
+}
+
+.btnOder {
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    /* background-color: rgb(230, 100, 100); */
+}
+
+
+
+
+
+
+
+
+
+
